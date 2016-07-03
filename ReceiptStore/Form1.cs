@@ -17,14 +17,11 @@ namespace ReceiptStore
         public Form1()
         {
             InitializeComponent();
-            string testFolder = "Wish";
-            FolderCreate(testFolder);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //string path = @"C:\Program Files\Receipts";
-
+            //Initial receipts folder.
             try
             {
                 if (Directory.Exists(InstallPath))
@@ -40,9 +37,10 @@ namespace ReceiptStore
             }
             
         }
-
+        
         private void FolderCreate(string DirectoryName)
         {
+            //Method to call when wanting a new subfolder for receipts.
             DirectoryInfo Di = Directory.CreateDirectory(InstallPath + DirectoryName);
         }
     }
