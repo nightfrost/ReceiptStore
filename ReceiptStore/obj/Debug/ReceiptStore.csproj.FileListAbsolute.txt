@@ -1,0 +1,9 @@
+c:\users\sanic\documents\visual studio 2015\Projects\ReceiptStore\ReceiptStore\bin\Debug\ReceiptStore.exe.config
+c:\users\sanic\documents\visual studio 2015\Projects\ReceiptStore\ReceiptStore\obj\Debug\ReceiptStore.csprojResolveAssemblyReference.cache
+c:\users\sanic\documents\visual studio 2015\Projects\ReceiptStore\ReceiptStore\obj\Debug\ReceiptStore.Form1.resources
+c:\users\sanic\documents\visual studio 2015\Projects\ReceiptStore\ReceiptStore\obj\Debug\ReceiptStore.Properties.Resources.resources
+c:\users\sanic\documents\visual studio 2015\Projects\ReceiptStore\ReceiptStore\obj\Debug\ReceiptStore.csproj.GenerateResource.Cache
+c:\users\sanic\documents\visual studio 2015\Projects\ReceiptStore\ReceiptStore\bin\Debug\ReceiptStore.exe
+c:\users\sanic\documents\visual studio 2015\Projects\ReceiptStore\ReceiptStore\bin\Debug\ReceiptStore.pdb
+c:\users\sanic\documents\visual studio 2015\Projects\ReceiptStore\ReceiptStore\obj\Debug\ReceiptStore.exe
+c:\users\sanic\documents\visual studio 2015\Projects\ReceiptStore\ReceiptStore\obj\Debug\ReceiptStore.pdb
