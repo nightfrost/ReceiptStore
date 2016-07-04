@@ -11,10 +11,10 @@ using System.IO;
 
 namespace ReceiptStore
 {
-    public partial class Form1 : Form
+    public partial class StartForm : Form
     {
-        string InstallPath = @"C:\Program Files\Receipts\";
-        public Form1()
+        public static string InstallPath = @"C:\Program Files\Receipts\";
+        public StartForm()
         {
             InitializeComponent();
         }
@@ -30,7 +30,7 @@ namespace ReceiptStore
                 }
                 DirectoryInfo di = Directory.CreateDirectory(InstallPath);
 
-                MessageBox.Show(string.Format("The directory was successfully created at: {0}", Directory.GetCreationTime(InstallPath).ToString()));
+                MessageBox.Show(string.Format("The directory for receipts was successfully created at: {0}", Directory.GetCreationTime(InstallPath).ToString()));
             }catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
@@ -42,6 +42,20 @@ namespace ReceiptStore
         {
             //Method to call when wanting a new subfolder for receipts.
             DirectoryInfo Di = Directory.CreateDirectory(InstallPath + DirectoryName);
+        }
+
+        private void SVReceiptsButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SaveReceipts svreceipts = new SaveReceipts();
+            svreceipts.Show();
+        }
+
+        private void ViewSVReceiptsButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ViewSavedReceipts vsvreceipts = new ViewSavedReceipts();
+            vsvreceipts.Show();
         }
     }
 }
